@@ -48,6 +48,30 @@ Open `http://localhost:3000` in any modern Chromium-based browser (Chrome, Edge,
 
 ---
 
+## ⚡ Deploy to Vercel
+
+This repository is pre-configured and 100% Vercel-ready with `vercel.json` SPA routing and asset caching.
+
+### Option 1: Vercel Dashboard (Recommended)
+1. Push this project to your GitHub, GitLab, or Bitbucket account.
+2. Go to [vercel.com/new](https://vercel.com/new) and select your repository.
+3. Vercel will automatically detect **Vite**:
+   - **Framework Preset**: `Vite`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+4. Click **Deploy**. Your site will be live on `https://your-project.vercel.app` in under 1 minute!
+
+### Option 2: Vercel CLI
+```bash
+# Install Vercel CLI globally
+npm i -g vercel
+
+# Deploy immediately
+vercel --prod
+```
+
+---
+
 ## 🧪 Automated Testing
 
 Unit tests for timecode math, video codec alignment, dimension rules, and asset bundle validation are executed via Node's native test runner:

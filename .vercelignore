@@ -1,0 +1,6 @@
+.playwright-cli/
+.git
+.github
+node_modules
+*.log
+src/**/*.test.ts
