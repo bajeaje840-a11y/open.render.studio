@@ -1,0 +1,6 @@
+{
+  "name": "OpenRender Studio",
+  "description": "Free, open-source code-to-video rendering studio for HTML, CSS, JavaScript, SVG, and Canvas animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
