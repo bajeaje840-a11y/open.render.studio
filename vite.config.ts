@@ -15,9 +15,11 @@ export default defineConfig(() => {
     base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
-      alias: {
-        '@': path.resolve(__dirname, '.'),
-      },
+      alias: [
+        { find: '@', replacement: path.resolve(__dirname, '.') },
+        { find: '/src', replacement: path.resolve(__dirname, 'src') },
+        { find: './src', replacement: path.resolve(__dirname, 'src') },
+      ],
     },
     build: {
       outDir: 'dist',
