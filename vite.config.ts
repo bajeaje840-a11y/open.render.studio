@@ -11,6 +11,8 @@ const __dirname = dirname(__filename);
 
 export default defineConfig(() => {
   return {
+    root: '.',
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
